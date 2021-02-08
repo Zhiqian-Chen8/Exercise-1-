@@ -470,8 +470,7 @@ k_best65AMG
 ```
 
 
-350's yields a larger optimal value of k. The reason is that in the plot of RMSE, both 350's and 65AMG's RMSE is increasing as k increases, and the value of RMSE of 65AMG is larger than 350, so 350's yields a larger optimal value of k.
-
+350's yields a larger optimal value of k. We think S-class 350 yields a larger optimal value of K. In the plot of RMSE for each value of K, we can find the best K. The S-class 350 has higher K than S-class 63 AMG. The S-class 63 AMG has lower K value, so it has more chance of memorizing random noise. If there is a random noise, it will cause more bias for prediction. For higher K, it has lower variance and less chance of memorizing random noise. Therefore, For S-class 350 dataset, it has more data points, so it’s optimal K can be larger to decrease bias.
 
 
 
